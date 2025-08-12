@@ -19,8 +19,15 @@ export class CategoriaComponent {
   }
 
   salvar() {
-    console.log('Valores digitados: ', this.camposForm.value);
-    console.log('Está valido?', this.camposForm.valid);
+    this.camposForm.markAllAsTouched();
+
+    if (this.camposForm.valid) {
+      console.log('Valores Digitados: ', this.camposForm.value);
+    }
   }
 
+  isCampoInvalido(nomeCampo: string): boolean {
+    const campo = this.camposForm.get(nomeCampo);
+    return campo?.invalid && campo?.touched && campo?.errors?.['required'] || false;
+  }
 }
