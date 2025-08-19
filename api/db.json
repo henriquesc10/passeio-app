@@ -1,9 +1,24 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Restaurantes",
-            "descricao": "Restaurantes variados com opções de comida local e internacional."
-        }
-    ]
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Restaurantes",
+      "descricao": "Restaurantes variados com opções de comida local e internacional."
+    },
+    {
+      "id": "16c0",
+      "nome": "Restaurante",
+      "descricao": "Um lugar bom para comer"
+    },
+    {
+      "id": "9944",
+      "nome": "Praias",
+      "descricao": "Um bom lugar para se refrescar"
+    },
+    {
+      "id": "1de2",
+      "nome": "Shoppings",
+      "descricao": "Incrível para torrar dinheiro"
+    }
+  ]
 }
