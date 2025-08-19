@@ -1,14 +1,9 @@
 {
-  "categorias": [
-    {
-      "id": "2",
-      "nome": "Shoppings",
-      "descricao": "Para fazer compras e passear"
-    },
-    {
-      "nome": "Restaurantes Atualizado",
-      "descricao": "Para comer bem",
-      "id": "38b0"
-    }
-  ]
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Restaurantes",
+            "descricao": "Restaurantes variados com opções de comida local e internacional."
+        }
+    ]
 }
