@@ -20,5 +20,15 @@
       "nome": "Shoppings",
       "descricao": "Incrível para torrar dinheiro"
     }
+  ],
+  "lugares": [
+    {
+      "id": "86be",
+      "nome": "Floripa Shopping",
+      "categoria": "Shoppings",
+      "localizacao": "Florianópolis / SC",
+      "urlFoto": "foto",
+      "avaliacao": "5"
+    }
   ]
 }
