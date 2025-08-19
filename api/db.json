@@ -29,6 +29,22 @@
       "localizacao": "Florianópolis / SC",
       "urlFoto": "foto",
       "avaliacao": "5"
+    },
+    {
+      "id": "bbfb",
+      "nome": "Praia dos Ingleses",
+      "categoria": "Praias",
+      "localizacao": "Florianópolis / SC",
+      "urlFoto": "foto",
+      "avaliacao": "5"
+    },
+    {
+      "id": "ec00",
+      "nome": "teste",
+      "categoria": "Selecione a Categoria",
+      "localizacao": "teste",
+      "urlFoto": "teste",
+      "avaliacao": "Selecione uma Avaliação"
     }
   ]
 }
