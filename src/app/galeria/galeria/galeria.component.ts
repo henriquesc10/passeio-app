@@ -8,23 +8,30 @@ import { CategoriaService } from '../../categorias/categoria.service';
   selector: 'app-galeria',
   standalone: false,
   templateUrl: './galeria.component.html',
-  styleUrl: './galeria.component.scss'
+  styleUrl: './galeria.component.scss',
 })
 export class GaleriaComponent implements OnInit {
-
   lugares: Lugar[] = [];
   categoriasFiltros: Categoria[] = [];
 
   constructor(
     private lugarService: LugarService,
     private categoriaService: CategoriaService
-  ) { }
+  ) {}
 
   ngOnInit(): void {
-    this.categoriaService.obterTodas()
-      .subscribe(categoriasResultado => this.categoriasFiltros = categoriasResultado);
+    this.categoriaService
+      .obterTodas()
+      .subscribe(
+        (categoriasResultado) => (this.categoriasFiltros = categoriasResultado)
+      );
 
-    this.lugarService.obterTodos()
-      .subscribe(lugaresResultado => this.lugares = lugaresResultado);
+    this.lugarService
+      .obterTodos()
+      .subscribe((lugaresResultado) => (this.lugares = lugaresResultado));
+  }
+
+  getTotalEstrelas(lugar: Lugar): string {
+    return '&#9733'.repeat(lugar.avaliacao || 0) + '&#9734'.repeat(5 - (lugar.avaliacao || 0));
   }
 }
