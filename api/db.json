@@ -27,7 +27,7 @@
       "nome": "Floripa Shopping",
       "categoria": "Shoppings",
       "localizacao": "Florianópolis / SC",
-      "urlFoto": "foto",
+      "urlFoto": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/f6/b1/5c/fachada-do-floripa-shopping.jpg?w=1200&h=-1&s=1",
       "avaliacao": "5"
     },
     {
@@ -35,7 +35,7 @@
       "nome": "Praia dos Ingleses",
       "categoria": "Praias",
       "localizacao": "Florianópolis / SC",
-      "urlFoto": "foto",
+      "urlFoto": "https://www.viagensecaminhos.com/wp-content/uploads/2011/02/florianopolis-praia-ingleses.jpg",
       "avaliacao": "5"
     },
     {
@@ -43,7 +43,7 @@
       "nome": "teste",
       "categoria": "Selecione a Categoria",
       "localizacao": "teste",
-      "urlFoto": "teste",
+      "urlFoto": "https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg",
       "avaliacao": "Selecione uma Avaliação"
     }
   ]
