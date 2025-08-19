@@ -38,6 +38,6 @@ export class CategoriaComponent {
 
   isCampoInvalido(nomeCampo: string): boolean {
     const campo = this.camposForm.get(nomeCampo);
-    return campo?.invalid && campo?.touched && campo?.errors?.['required'] || false;
+    return campo?.invalid && campo?.touched && campo?.errors?.['required'];
   }
 }
