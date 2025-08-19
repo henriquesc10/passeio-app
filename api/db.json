@@ -1,11 +1,6 @@
 {
   "categorias": [
     {
-      "id": "1",
-      "nome": "Restaurantes",
-      "descricao": "Restaurantes variados com opções de comida local e internacional."
-    },
-    {
       "id": "16c0",
       "nome": "Restaurante",
       "descricao": "Um lugar bom para comer"
