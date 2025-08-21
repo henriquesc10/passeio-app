@@ -14,6 +14,11 @@
       "id": "1de2",
       "nome": "Shoppings",
       "descricao": "Incrível para torrar dinheiro"
+    },
+    {
+      "nome": "Parques",
+      "descricao": "Parques naturais, ótimo para se passar uma tarde com chimarrão",
+      "id": "9XZriBB"
     }
   ],
   "lugares": [
@@ -40,6 +45,30 @@
       "localizacao": "teste",
       "urlFoto": "https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg",
       "avaliacao": "3"
+    },
+    {
+      "nome": "Mato do Júlio",
+      "categoria": "Parques",
+      "localizacao": "Cachoeirinha / RS",
+      "urlFoto": "https://assets.brasildefato.com.br/2024/09/image_processing20240621-1668826-cdiczc-750x450.webp",
+      "avaliacao": "2",
+      "id": "75omhI0"
+    },
+    {
+      "nome": "Praia do Forte",
+      "categoria": "Praias",
+      "localizacao": "Florianópolis / SC",
+      "urlFoto": "https://cdn.checkinweb.com.br/img/204/upload/images/turismo%20na%20praia%20do%20forte%20bahia%20%2821%29.jpg",
+      "avaliacao": "3",
+      "id": "UlZddb9"
+    },
+    {
+      "nome": "Barra Shopping",
+      "categoria": "Shoppings",
+      "localizacao": "Porto Alegre / RS",
+      "urlFoto": "https://paulobaruki.com/content/uploads/2015/03/BSS201805AM7182-675x450.jpg",
+      "avaliacao": "5",
+      "id": "9cRM_ph"
     }
   ]
 }
